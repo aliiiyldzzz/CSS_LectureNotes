@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biçimlendirme</title>
+
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        #kutu{
+            border: purple solid 2px;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: brown;
+        }
+        input{
+            border: purple solid 2px;
+            color: purple;
+            padding: 5px;
+            margin: 5px;
+        }
+        input:hover{
+            background-color: aqua;
+        }
+        input:focus{
+            background-color: bisque;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="kutu">
+        <form >
+            <table>
+                <tr><td>Ad Soyad : </td> <td> <input type="text"></td></tr>
+                <tr><td>Yaşı :</td><td> <input type="number"></td></tr>
+                <tr><td>Email : </td> <td> <input type="email"></td></tr>
+                <tr><td>Şifre : </td> <td> <input type="password"></td></tr>
+                  <tr><td><input type="submit"> </td> <td> <input type="reset"></td></tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

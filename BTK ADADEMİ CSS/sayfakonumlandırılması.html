@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayfa Konumlandırılması </title>
+
+    <style>
+        div{
+            border-style: solid;
+            border-width: 5px;
+        }
+
+        #büyük{
+            width: 300px;
+            height: 200px;
+            background-color:blue;
+            border-color: #000;
+            position: relative;
+          
+        }
+        #kücük{
+            width: 150px;
+            height: 50px;
+            background-color: darkgoldenrod;
+            border-color: red;
+
+            position: relative;
+            top: -50px;
+            left: 50px;
+            z-index: -1;
+           
+        }
+    </style>
+</head>
+<body>
+    <div id="büyük">
+        büyük kutu
+    </div>
+    <div id="kücük">
+        kücük kutu
+    </div>
+</body>
+</html>
